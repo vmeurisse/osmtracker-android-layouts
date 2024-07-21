@@ -1,0 +1,34 @@
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="textnote" icon="logo_textnote"/>
+            <button type="voicerec" icon="logo_voice"/>
+            <button type="picture" icon="logo_camera"/>
+        </row>
+        <row>
+            <button type="page" label="Voies" icon="perso_icons/voies.png" targetlayout="voies"/>
+        </row>
+    </layout>
+    <layout name="voies">
+        <row>
+            <button type="tag" label="Piste (B22a)" icon="perso_icons/B22a.png"/>
+            <button type="tag" label="Piste (C113)" icon="perso_icons/C113.png"/>
+            <button type="tag" label="Voie verte (C115)" icon="perso_icons/C115.png"/>
+        </row>
+        <row>
+            <button type="tag" label="!Piste (B40)" icon="perso_icons/B40.png"/>
+            <button type="tag" label="!Piste (C114)" icon="perso_icons/C114.png"/>
+            <button type="tag" label="!voie verte (C116)" icon="perso_icons/C116.png"/>
+        </row>
+        <row>
+            <button type="tag" label="Piétons (B22b)" icon="perso_icons/B22b.png"/>
+            <button type="tag" label="Piétons (C109)" icon="perso_icons/C109.png"/>
+            <button type="tag" label="Zone de rencontre (B52)" icon="perso_icons/B52.png"/>
+        </row>
+        <row>
+            <button type="tag" label="!Piétons (B41)" icon="perso_icons/B41.png"/>
+            <button type="tag" label="!highway=footway" icon="perso_icons/C110.png"/>
+            <button type="tag" label="!Zone de rencontre" icon="perso_icons/B53.png"/>
+        </row>
+    </layout>
+</layouts>
